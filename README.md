@@ -8,7 +8,7 @@ This is a repository for NCTU ECM DL course final competition.
 We observed that there is an imbalance data problem for this data set based on the following histogram of labels.
 Thus, we simply do a data augmentation by adjusting all the training data to the same scale. We augmented the data to
 40,000 per label.
-![img of label](https://i.imgur.com/6OImUP4.png)
+<br> ![img of label](https://i.imgur.com/6OImUP4.png)
 
 <br> Training data is formed of "title" and "keyword". 
 Firstly, drop the comma for the titles and the keywords. Secondly, we combine the title and the keyword for each ID. 
