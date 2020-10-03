@@ -12,7 +12,7 @@ Thus, we simply do a data augmentation by adjusting all the training data to the
 
 <br> Training data is formed of "title" and "keyword". 
 Firstly, drop the comma for the titles and the keywords. Secondly, we combine the title and the keyword for each ID. 
-Notice that we also do the same processing for the testing data! This is because we plan to include the testing data's sentences and keywords features later in the embedding layer. Even though the testing data doesn't have labels, we can still leverage from them by including them into the embedding layer for the model.
+**Notice that we also do the same processing for the testing data!** This is because we plan to include the testing data's sentences and keywords features later in the embedding layer. Even though the testing data doesn't have labels, we can still leverage from them by including them into the embedding layer for the model.
 
 <br> We use jieba, a popular library for processing Chinese, to prepare the training data we need. However, only splitting out the
 words doesn't provide enough information for our models. We only pick some certain POS(詞性) for our model to learn. 
