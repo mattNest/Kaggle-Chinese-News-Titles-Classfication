@@ -2,7 +2,7 @@
 
 This is a repository for NCTU ECM DL course final competition.
 <br> Our goal is to correctly classify 10 different categories for Chinese news titles.
-<br> Please refernece this page for more info about the competition: https://www.kaggle.com/c/dl-course-final-competition/overview
+<br> Please refer to this page for more info about the competition: https://www.kaggle.com/c/dl-course-final-competition/overview
 
 ### Data Preprocessing 
 We observed that there is an imbalance data problem for this data set based on the following histogram of labels.
